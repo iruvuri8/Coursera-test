@@ -8,6 +8,8 @@ h1 {
 p {
 	background-color: green;
 	font-family: Helvetica;
+	clear:both;
+	height: 150px;
 	color: black;
 	padding: 10px;
 	overflow: auto;

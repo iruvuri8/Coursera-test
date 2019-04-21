@@ -41,7 +41,7 @@
     height: 60px;
 }
 .col-xs-12 {
-  position:relative; 
+  position:inherit; 
   left:15%;
   right:15%;
 }

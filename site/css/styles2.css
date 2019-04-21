@@ -2,10 +2,14 @@
  /* Header */
 .navbar-brand {
   padding-top: 25px;
-  height: 80px;
-  margin-left: 0;
+  height: 70px;
 }
-
+#header-nav {
+  background-color:#bbb;
+}
+h2, h3{
+  padding: 15px;
+}
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
   color: #557c3e;
@@ -15,8 +19,10 @@
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  margin-left: -30px;
+  line-height: .50;
 }
+
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
@@ -27,9 +33,13 @@
   border-bottom:2px solid #000;
 
 }
+a.text-center {
+  margin-left: 50%;
+}
 
 .food-menu {
   background-color:#bbb;
+  margin: 0;
 }
 
 /********** Extra small devices only **********/
@@ -38,6 +48,9 @@
   .navbar-brand {
     padding-top: 20px;
     height: 60px;
+}
+.food-menu {
+  margin-left: -80px;
 }
 .col-xs-9 {
   position:relative; 

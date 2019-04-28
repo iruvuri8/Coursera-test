@@ -2,44 +2,11 @@
 <html>
 <head>
 	<title>Week-4 Solution</title>
+	<script type="text/javascript" src="js/hellospeaker.js"></script>
+	<script type="text/javascript" src="js/byespeaker.js"></script>
+	<script type="text/javascript" src="js/loop.js"></script>
 </head>
 <body>
-<script>
-(function (window) {
-var name = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-var helloSpeaker = {};
-helloSpeaker.name = "Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim";
-var speakWord = "Hello";
-helloSpeaker.sayHello = function (window) {
-  console.log(speakWord + helloSpeaker.name);
-}
-
-window.helloSpeaker = helloSpeaker;
-})(window);
-
-(function (window) {
-var name = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
-var byeSpeaker = {};
-byeSpeaker.name = "Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim";
-var speakWord = "Good Bye";
-byeSpeaker.sayGoodBye = function (window) {
-  console.log(speakWord + byeSpeaker.name);
-}
-
-window.byeSpeaker = byeSpeaker;
-})(window);
-
-for (var i = 0; i < name.length; i++) {
-  var firstLetter = name[i].charAt(0).toLowerCase();
-
-  if (firstLetter === 'j') {
-    byeSpeaker.speak(name[i]);
-  } else {
-    helloSpeaker.speak(name[i]);
-  }
-}
-
-</script>
-
+<h1>Module 4 Solution</h1>
 </body>
 </html>
